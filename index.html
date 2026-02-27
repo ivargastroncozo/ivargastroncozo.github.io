@@ -1,23 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Ignacio Vargas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Ignacio Vargas</title>
+
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+img.profile {
+    width: 160px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: gray;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.publication {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: gray;
+}
+</style>
+
 </head>
 
 <body>
-    <h1>Ignacio Vargas</h1>
-    <p>Marketing Researcher</p>
 
-    <h2>About Me</h2>
-    <p>I am a marketing scholar interested in consumer behavior.</p>
+<div class="container">
 
-    <h2>Research</h2>
-    <ul>
-        <li>Working paper 1</li>
-        <li>Working paper 2</li>
-    </ul>
+<header>
+<img src="photo.jpg" class="profile">
+<div>
+<h1>Ignacio Vargas</h1>
+<p class="subtitle">
+Ph.D. in Marketing<br>
+University of North Texas
+</p>
 
-    <h2>Contact</h2>
-    <p>Email: yourmail@email.com</p>
+<nav>
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#teaching">Teaching</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+TEST
+</p>
+</section>
+
+<section id="research">
+<h2>Research</h2>
+
+<div class="publication">
+<strong>TEST</strong><br>
+TEST
+</div>
+
+<div class="publication">
+<strong>Working Paper Title</strong><br>
+Working Paper
+</div>
+
+</section>
+
+<section id="teaching">
+<h2>Teaching</h2>
+<ul>
+<li>Marketing Research @ Universidad de Chile</li>
+<li>Strategic Brand Mangement @ University of North Texas</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>
+Email: ignacio.vargastroncozo@unt.edu<br>
+https://scholar.google.com/citations?user=F57maykAAAAJ&hl=es | https://www.linkedin.com/in/ignacio-vargas-troncozo/
+</p>
+</section>
+
+<footer>
+<p>© 2026 Ignacio Vargas</p>
+</footer>
+
+</div>
+
 </body>
 </html>
